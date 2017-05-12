@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #E6CFAE;
+}
+
 .menu{
     display: flex;
     background-color: #CD4A5B;
@@ -59,6 +63,7 @@ nav>a{
     flex-direction: column;
     width: 80%;
     margin: auto;
+    background-color: #4F4E53
     
     
     
@@ -74,15 +79,43 @@ nav>a{
     align-items:center;
     width: 100%;
     padding: 20%;
-    
+    font-family: 'Dosis', sans-serif;
+    color:white;
     
     
 }
 
 .imgService{
     width: 40%;
-    align-items: flex-start;
-    
+    align-items: flex-start center;
+    margin: 5%;
     
 }
+
+.imgService>img{
+    border-radius: 50%
+}
+
+.video{
+    display: flex;
+    background-color: #CD4A5B;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 0% 0% 0% 0% ;
+    width: 80%;
+    margin: auto
+}
+
+.ytvideo{
+    margin-top: 3%;
+    margin-bottom: 3%;
+  
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
