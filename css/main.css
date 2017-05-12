@@ -1,46 +1,43 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #E6CFAE;
 }
 
-.menu{
+.menu {
     display: flex;
     background-color: #CD4A5B;
     width: 100%;
     justify-content: flex-end;
 }
 
-
-nav{
+nav {
     background-color: #CD4A5B;
-    
-    width:50%;
+    width: 50%;
 }
 
-nav>a{
+nav>a {
     color: white;
     margin: 3%;
     font-size: 110%;
     text-decoration: none;
     font-family: 'Courgette', cursive;
-    
-    
 }
 
-.iconmenu{
+.iconmenu {
     width: 10%;
     display: none;
 }
-.iconmenu>i{
-    max-width:100%;
+
+.iconmenu>i {
+    max-width: 100%;
     color: white;
     font-size: 350%;
-
 }
-.head{
+
+.head {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,74 +45,95 @@ nav>a{
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
+    height: 400px;
 }
 
-.headtext{
-    color:#360A17;
+.headtext {
+    color: #360A17;
     font-size: 600%;
     margin: 20%;
     font-family: 'Baloo', cursive;
     text-align: center;
 }
 
-.service{
+.service {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: auto;
     background-color: #4F4E53
-    
-    
-    
-    
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     flex-direction: row;
-}
-
-.pservice{
-    align-items:center;
     width: 100%;
-    padding: 20%;
+    justify-content: center;
+}
+
+.pservice {
+    width: 50%;
+    padding: 2%;
+    margin: auto;
     font-family: 'Dosis', sans-serif;
-    color:white;
-    
-    
+    color: white;
 }
 
-.imgService{
-    width: 40%;
-    align-items: flex-start center;
-    margin: 5%;
-    
+.imgService {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:50%;
+    height: auto;
+    margin: 3%;
 }
 
-.imgService>img{
-    border-radius: 50%
+.imgService>img {
+    border-radius: 50%;
+    width: 100%;
 }
 
-.video{
+.video {
     display: flex;
     background-color: #CD4A5B;
     flex-direction: row;
     justify-content: center;
-    border-radius: 0% 0% 0% 0% ;
+    border-radius: 0% 0% 0% 0%;
     width: 80%;
     margin: auto
 }
 
-.ytvideo{
+.ytvideo {
     margin-top: 3%;
     margin-bottom: 3%;
-  
 }
 
-.form{
+form {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
 }
 
+.name{
+    width: 80%;
+    padding: 2%;
+    margin: auto;
+    border-radius: 3%
+        
+}
+
+@media (max-width: 720px){
+    nav{
+        display: none;
+    }
+    .iconmenu{
+        display: flex:
+    }
+    p.service{
+        display: none;
+    }
+}
 
 
