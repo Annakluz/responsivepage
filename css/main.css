@@ -53,3 +53,23 @@ nav>a{
     font-family: 'Baloo', cursive;
     text-align: center;
 }
+
+.service{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.pservice{
+    display: flex;
+    width: 50%;
+    
+}
+
+.imgService{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
